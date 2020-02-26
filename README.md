@@ -6,7 +6,7 @@ A version in Fortran 90 of a pseudo-random number generator, more precisely, a c
 
 > L'ecuyer P. Good parameters and implementations for combined multiple recursive random number generators. Operations Research. 1999 Feb;47(1):159-64.
 
-This algorithm is well suited for parallel computing as it can initialize many long streams and substreams, with a total period length of $2^{191}$ and it passes [diehard tests](https://en.wikipedia.org/wiki/Diehard_tests).
+This algorithm is well suited for parallel computing as it can initialize many long streams and substreams, with a total period length of 2<sup>191</sup> and it passes [diehard tests](https://en.wikipedia.org/wiki/Diehard_tests).
 
 ## Getting started
 
